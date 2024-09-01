@@ -42,7 +42,7 @@ describe.runIf(process.platform !== "win32")("basic", () => {
   });
 
   test("(5 pts) should not show professor's email that was in the template on the live site", async () => {
-    await checkForEmail(website, "ckanich@uic.edu", page, false);
+    await checkForEmail(website, "vpamu@uic.edu", page, false);
   });
 
   test("(5 pts) should show student email address on the dev server", async () => {
